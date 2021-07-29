@@ -38,9 +38,11 @@ export default {
 }
 
 .Footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* padding: 1rem; */
 }
 
 * {
@@ -53,7 +55,9 @@ export default {
 body {
 	font-family: 'Roboto', sans-serif !important;
 	font-size: 16px;
-	background: var(--light-color);
+	background: url(https://images.unsplash.com/photo-1571757767119-68b8dbed8c97?auto=format&fit=crop&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1350);
+	background-repeat: no-repeat;
+    background-size: cover;
 }
 
 ul {
